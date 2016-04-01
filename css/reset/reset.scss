@@ -156,12 +156,26 @@ pre code {
 code {
   font-family: "Source Code Pro", Consolas, "Letter Gothic Std", Courier, "Nanum Gothic Coding", monospace;
 }
+
 pre {
   margin: 10px 0;
   padding: 20px;
   display: inline-block;
-  width: 89%;
+  width: 94.5%;
   background: $grey-1;
   border: 1px solid $divider-color;
   border-radius: 2px;
+}
+
+// 저해상도에 따른 코드 블록 커짐 현상 방지를 위한 CSS재정의
+@media screen and (max-width:480px) {
+	pre{
+		margin: 10px 0;
+	  padding: 20px;
+	  display: inline-block;
+	  width: 89%;
+	  background: $grey-1;
+	  border: 1px solid $divider-color;
+	  border-radius: 2px;
+	}
 }

@@ -123,7 +123,6 @@ a.footnote {
 .spoqa-logo img {
   width: 60px;
   height: auto;
-  padding-top: 1px;
   padding-right: 6px;
   vertical-align: middle;
 }
@@ -385,7 +384,6 @@ figcaption {
 /* blog ends */
 
 /* about */
-
 .post .intro-title {
   margin-top: 20px;
   padding-bottom: 12px;
@@ -408,74 +406,6 @@ figcaption {
 .author-info {
   margin-top: 3px;
   margin-left: 20%;
-}
-.member-info {
-}
-.sns a {
-  margin: -5px 2px 0 0;
-  vertical-align: middle;
-}
-.nick-name {
-  margin-right: 10px;
-  font-weight: bold;
-}
-.nick-name a {
-  color: $text-color;
-}
-.author img {
-  width: 14%;
-  padding: 0;
-  border-radius: 50%;
-  float: left;
-}
-.twitter-icon {
-  display: inline-block;
-  background-image: url(/images/twitter-icon.png);
-  background-size: 24px 24px;
-  width: 24px;
-  height: 24px;
-}
-.facebook-icon {
-  display: inline-block;
-  background-image: url(/images/facebook-icon.png);
-  background-size: 24px 24px;
-  width: 24px;
-  height: 24px;
-}
-.tumblr-icon {
-  display: inline-block;
-  background-image: url(/images/tumblr-icon.png);
-  background-size: 24px 24px;
-  width: 24px;
-  height: 24px;
-}
-.dribbble-icon {
-  display: inline-block;
-  background-image: url(/images/dribbble-icon.png);
-  background-size: 24px 24px;
-  width: 24px;
-  height: 24px;
-}
-.linkdin-icon {
-  display: inline-block;
-  background-image: url(/images/linkdin-icon.png);
-  background-size: 24px 24px;
-  width: 24px;
-  height: 24px;
-}
-.wordpress-icon {
-  display: inline-block;
-  background-image: url(/images/wordpress-icon.png);
-  background-size: 24px 24px;
-  width: 24px;
-  height: 24px;
-}
-.homepage-icon {
-  display: inline-block;
-  background-image: url(/images/homepage-icon.png);
-  background-size: 24px 24px;
-  width: 24px;
-  height: 24px;
 }
 
 /* footer */
@@ -541,26 +471,6 @@ figcaption {
     padding: 15px 0;
     width: 100%;
   }
-  .hiring-banner {
-    height: 380px;
-    cursor: pointer;
-  }
-  .hiring-content {
-    top: 60px;
-    right:0;
-    left:0;
-    margin: 0;
-    text-align:center;
-  }
-  .hiring-title {
-    font-size: $blog-font-size-lg;
-  }
-  .hiring-subtitle br{
-    display: none;
-  }
-  .btn-job {
-    width: 70%;
-  }
   .post-author-info .portrait {
     width: 40%;
   }
@@ -587,23 +497,6 @@ figcaption {
 @media only screen and (max-width: 360px) {
   body {
     width: 100%;
-  }
-  .hiring-banner {
-    height: 380px;
-    text-align: center;
-    cursor: pointer;
-  }
-  .hiring-content {
-    top: 60px;
-    right:0; left:0;
-    text-align: center;
-    margin: 0;
-  }
-  .hiring-title {
-    font-size: $blog-font-size-lg;
-  }
-  .btn-job {
-    margin-top: 20px;
   }
 }
 
