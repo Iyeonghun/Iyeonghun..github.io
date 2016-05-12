@@ -478,7 +478,7 @@ figcaption {
     display: none;
   }
   .posts li {
-    padding: 13% 0 20% 0;
+    padding: 13% 0 21% 0;
   }
   .post-title {
     margin-right: 0;
@@ -566,15 +566,16 @@ font-size: 36px;
 
 .tags li a {
   padding: 1px 12px 2px 0px;
-  color: #a2abad;
+  color: #f69489;
 }
 
 .tags li a:hover {
-  color: #a2abad;
+  color: #f69489;
 }
 
 .post-tags {
 	padding: 0;
+	margin-top: 6px;
   list-style-type: none;
   font-size: 0.8em;
 }
@@ -589,7 +590,7 @@ font-size: 36px;
 
 .post-tags li a {
 	padding: 1px 12px 2px 12px;
-	color: #a2abad;
+	color: #f69489;
 }
 
 /* fb comment plug-in overrides */
