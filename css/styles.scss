@@ -239,7 +239,7 @@ a.footnote {
 }
 .posts li {
   border-bottom: 1px solid $divider-color;
-  padding: 8% 0;
+  padding: 8% 0 11% 0;
 }
 .list-type-none {
   list-style: none;
@@ -321,7 +321,7 @@ figcaption {
   }
 }
 .post-author-info {
-  margin-bottom: 12%;
+  margin-bottom: 7%;
   text-align: center;
 
  .portrait {
@@ -478,7 +478,7 @@ figcaption {
     display: none;
   }
   .posts li {
-    padding: 15% 0;
+    padding: 15% 0 20% 0;
   }
   .post-title {
     margin-right: 0;
@@ -534,6 +534,62 @@ figcaption {
   .pagination .next {
     float: right;
   }
+}
+
+/* error? */
+.error {
+  display: none;
+  .too-few-parameters, .too-many-parameters, .no-results {
+    display: none;
+  }
+}
+
+/* search */
+header .post-title {
+margin: 0 10% 5px 0;
+font-size: 36px;
+}
+
+/* tags? */
+.tags {
+  padding: 0;
+  list-style-type: none;
+  font-size: 0.8em;
+}
+
+.tags li {
+  float: left;
+	border-bottom: 0;
+	padding: 0;
+	text-align: center;
+}
+
+.tags li a {
+  padding: 1px 12px 2px 0px;
+  color: #a2abad;
+}
+
+.tags li a:hover {
+  color: #a2abad;
+}
+
+.post-tags {
+	padding: 0;
+  list-style-type: none;
+  font-size: 0.8em;
+}
+
+.post-tags li {
+	float: none;
+	display:inline;
+	border-bottom: 0;
+	padding: 0;
+	text-align: center;
+}
+
+.post-tags li a {
+	padding: 1px 12px 2px 12px;
+	color: #a2abad;
 }
 
 /* fb comment plug-in overrides */
