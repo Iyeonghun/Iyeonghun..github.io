@@ -536,21 +536,25 @@ figcaption {
   }
 }
 
-/* error? */
-.error {
-  display: none;
-  .too-few-parameters, .too-many-parameters, .no-results {
-    display: none;
-  }
-}
-
 /* search */
-header .post-title {
-margin: 0 10% 5px 0;
-font-size: 36px;
+.search-header h2 {
+	margin-bottom: 0em;
 }
 
-/* tags? */
+.search-header p{
+	margin-left: 0.3em;
+}
+
+.search-ul {
+	list-style: square;
+	margin-left: 1.5em;
+}
+
+.search-ul li a {
+	color: #ea6153;
+}
+
+/* tags */
 .tags {
   padding: 0;
   list-style-type: none;
@@ -566,11 +570,11 @@ font-size: 36px;
 
 .tags li a {
   padding: 1px 12px 2px 0px;
-  color: #f69489;
+  color: #ea6153;
 }
 
 .tags li a:hover {
-  color: #f69489;
+  color: #ea6153;
 }
 
 .post-tags {
@@ -590,7 +594,14 @@ font-size: 36px;
 
 .post-tags li a {
 	padding: 1px 12px 2px 12px;
-	color: #f69489;
+	color: #ea6153;
+}
+
+.error {
+  display: none;
+  .too-few-parameters, .too-many-parameters, .no-results {
+    display: none;
+  }
 }
 
 /* fb comment plug-in overrides */
