@@ -7,7 +7,7 @@ published: true
 comments: true
 ---
 
-## Mi Band 2 UUID
+## Mi Band 1 UUID
 
 작성중
 
