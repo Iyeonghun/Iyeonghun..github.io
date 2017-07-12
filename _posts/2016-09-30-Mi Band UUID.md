@@ -1,6 +1,6 @@
 ---
-layout: entry
 title: Mi Band UUID
+layout: entry
 description: Mi Band UUID 분석 자료
 tags: [Mi Band, 미밴드]
 published: true
